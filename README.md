@@ -4,7 +4,7 @@ EmailClassifier-ML is an advanced machine learning project aimed at classifying 
 
 # Key Components
 Email Preprocessing: Utilizes regular expressions and NLTK for cleaning and preparing email data.
-data_cleaned['processed_message'] = data_cleaned['message'].apply(lambda x: re.sub(r'[^\w\s]', '', x).lower())
+Snippet: data_cleaned['processed_message'] = data_cleaned['message'].apply(lambda x: re.sub(r'[^\w\s]', '', x).lower())
 
 Feature Extraction: Applies CountVectorizer for converting email text into a machine-readable numeric format.
 vectorizer = CountVectorizer()
